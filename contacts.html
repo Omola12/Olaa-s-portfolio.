@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Olaa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="grid-bg"></div>
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Olaa<span style="color:#fff;">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <span class="section-label">// 04. Reach Out</span>
+            <h1 class="page-title">Let's <span>connect.</span></h1>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <div class="section-inner">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Direct message me.</h3>
+                        <p>Prefer instant messaging? Hit me up on WhatsApp or Telegram. I typically respond within a few hours.</p>
+                        <div class="contact-channels">
+                            <!-- WHATSAPP — Replace 1234567890 with your number -->
+                            <a href="https://wa.me/2349078135244?text=Hey%2C%20I%20saw%20your%20portfolio%20and%20I'd%20love%20to%20work%20with%20you!"
+                            class="contact-channel whatsapp" target="_blank" rel="noopener noreferrer">
+                            <div class="channel-icon">💬</div>
+                            <div class="channel-text">
+                                <strong>WhatsApp</strong>
+                                <span>Chat instantly</span>
+                            </div>
+                        </a>
+                        <!-- TELEGRAM — Replace yourusername -->
+                        <a href="https://t.me/yourusername?text=Hey%2C%20I%20saw%20your%20portfolio!"
+                        class="contact-channel telegram" target="_blank" rel="noopener noreferrer">
+                        <div class="channel-icon">✈️</div>
+                        <div class="channel-text">
+                            <strong>Telegram</strong>
+                            <span>@Omo_ola13</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <h3>📧 Or drop an email.</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                        📨 Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 <span>Olaa</span>. Built with ⚡ and obsession. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
