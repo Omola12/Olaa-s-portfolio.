@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Olaa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="grid-bg"></div>
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Olaa<span style="color:#fff;">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <span class="section-label">// 02. Portfolio</span>
+            <h1 class="page-title">Selected <span>work.</span></h1>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <div class="section-inner">
+                <!-- Filter Buttons -->
+                <div class="filter-bar">
+                    <button class="filter-btn active-filter" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-icon">🖥️</div>
+                        <h3>CyberVault Dashboard</h3>
+                        <p>Enterprise-grade analytics dashboard with real-time data streaming and dark-mode UI. Built for fintech.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">Node</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-icon">📱</div>
+                        <h3>Pulse Fitness App</h3>
+                        <p>Award-winning fitness tracking app with AI-powered workout recommendations and social features.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">AI/ML</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-icon">🛒</div>
+                        <h3>LuxeCart E-Commerce</h3>
+                        <p>High-conversion luxury e-commerce platform with 3D product previews and seamless checkout flow.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Three.js</span>
+                            <span class="project-tag">Stripe</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <div class="project-icon">🎨</div>
+                        <h3>Brand Identity System</h3>
+                        <p>Complete brand overhaul for a tech startup — logo, typography, color system, and component library.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">Illustrator</span>
+                            <span class="project-tag">Design Systems</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-icon">🎮</div>
+                        <h3>AR Navigation Game</h3>
+                        <p>Augmented reality mobile game using GPS and camera for real-world treasure hunts.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Unity</span>
+                            <span class="project-tag">ARCore</span>
+                            <span class="project-tag">C#</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-icon">📊</div>
+                        <h3>DataViz Platform</h3>
+                        <p>Interactive data visualization tool for researchers — custom charting engine and export functionality.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Canvas</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 <span>NEONEXUS</span>. Built with ⚡ and obsession. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
